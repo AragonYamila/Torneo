@@ -1,0 +1,17 @@
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\bin\Debug\net6.0\TorneoEjercicio.Servicio.deps.json
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\bin\Debug\net6.0\TorneoEjercicio.Servicio.runtimeconfig.json
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\bin\Debug\net6.0\TorneoEjercicio.Servicio.dll
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\bin\Debug\net6.0\TorneoEjercicio.Servicio.pdb
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\bin\Debug\net6.0\TorneoEjercicio.Data.dll
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\bin\Debug\net6.0\TorneoEjercicio.Data.pdb
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.csproj.AssemblyReference.cache
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.AssemblyInfoInputs.cache
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.AssemblyInfo.cs
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.csproj.CoreCompileInputs.cache
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.csproj.CopyComplete
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.dll
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\refint\TorneoEjercicio.Servicio.dll
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.pdb
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\TorneoEjercicio.Servicio.genruntimeconfig.cache
+C:\Users\arago\source\repos\Torneo\Torneo.Servicio\obj\Debug\net6.0\ref\TorneoEjercicio.Servicio.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TorneoEjercicios.Web.props" />
+</Project>

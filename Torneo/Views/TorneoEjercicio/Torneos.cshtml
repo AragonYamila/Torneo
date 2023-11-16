@@ -1,0 +1,56 @@
+﻿@model List<TorneoEjercicio.Data.EF.Torneo>;
+<div class="alert-success">
+    @TempData["Exito"]
+</div>
+<h1 class="text-center">Todos los torneos</h1>
+<div>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Cantidad De Participantes</th>
+            <th>Habilitado</th>
+        </tr>
+        @foreach (var torneo in Model)
+        {
+            <tr>
+                <td>@torneo.Id</td>
+                <td>@torneo.Nombre</td>
+                <td>@torneo.CantidadParticipantes</td>
+                @if (@torneo.Habilitado)
+                {
+                    <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop-@torneo.Id">
+                        Deshabilitar
+                    </button>
+                    </td>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop-@torneo.Id" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Deshabilitar Torneo</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ¿Esta seguro  de que desea deshabilitar el torneo @torneo.Nombre?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                    <a class="btn btn-primary" href="/TorneoEjercicio/DeshabilitarTorneo/@torneo.Id">Deshabilitar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+                else
+                {
+                    <td><a class="btn btn-outline-success" href="">Habilitar</a></td>
+                }
+
+            </tr>
+
+        }
+    </table>
+</div>
